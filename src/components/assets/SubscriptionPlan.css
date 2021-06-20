@@ -1,0 +1,26 @@
+.subcriptionPlan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.subscriptionPlan--active {
+  background-color: gray !important;
+}
+.subscriptionPlan--notActive {
+  background-color: #e50914 !important;
+}
+.subcriptionPlan_left > h3 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.subscriptionPlanDiv {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: white;
+  border: none;
+  outline: none;
+}
